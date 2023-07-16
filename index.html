@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sajan Portfolio</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/f928276671.js" crossorigin="anonymous"></script>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png " class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-end Developer</p>
+                <h1>Hi,I'm <span>Sajan</span>  <br> From Bhubaneswar,Odisha</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------About----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p class="objective">I am a B.Tech Computer Science graduate with good analytical,problem solving skills and proficient Front End Developer effective at developing strong websites that achieve customer objectives. Familiar with working alongside dealing customers to determine needs, create plans and optimize design usability and performance. Well-versed in using HTML, CSS and JavaScript as well as other resources to accomplish design requirements.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Webapp interfaces</li>
+                            <li><span>Web Development</span><br>web app development</li>
+                            <li><span>App development</span><br>building android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>self place</span><br>frontend</li>
+                            <li><span>Freelance</span><br>web app development</li>
+                            <li><span>react</span><br>Some knowledge in React JS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022</span><br>CSE graduate from GITA,Bhubaneswar</li>
+                            <li><span>2018</span><br>+2 from Rajdhani College,Bhubaneswar</li>
+                            <li><span>2016</span><br>10th from SSVM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ________________services________________- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designer</h2>
+                    <p>Creative Web Designer incorporates rich media assets and extensive interactivity to engage and capture audiences. Develops novel architectures and navigation plans to differentiate final products from existing competition. Specializes in sites guaranteed to stand out among crowded industries and product categories.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i> 
+                    <h2>Front-End Design</h2>
+                    <p>Organized and motivated employee eager to apply time management and organizational skills in various environments. Seeking entry-level opportunities to expand skills while facilitating company growth.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div> 
+                    <i class="fa-brands fa-apple-pay"></i>
+                    <h2>React Designer</h2>
+                    <p>Talented Software Developer equipped with great coding, debugging and project management abilities. Accomplishes project goals consistently with elegant, scalable code. Works great with team members under Agile and Scrum frameworks.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- _____________________portfolio__________________ -->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>social media App</h3>
+                        <p>Click below to open social media app.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Click below to open Music app.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>E-Commerce App</h3>
+                        <p>Click below to open E-Commerce app.</p>
+                        <a href="https://sajanzatch.github.io/Shoes-Store-Website/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+            
+    </div>
+
+
+
+    <!-- _______________________contact__________________________ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sajanbiswal754@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91-8249129059</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/sajan.biswal.520?mibextid=ZbWKwL"target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/sajan.biswal" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sajan-biswal-4397b7201" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text"name="Name" placeholder="Your Name" required>
+                        <input type="email"name="Email"placeholder="Your Email" required>
+                        <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @Sajan.Personal Portfolio<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
